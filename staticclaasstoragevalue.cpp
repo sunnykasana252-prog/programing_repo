@@ -6,11 +6,11 @@ class Example{
  // static int a;
   static void display();
 };
-
-void display(){
+int Example::a=10;
+void Example::display(){
     cout<<Example::a<<endl;
 }
-//int Example::a=10;
+
 
 int main() {
 
@@ -19,7 +19,8 @@ int main() {
 
 // with object;
 Example E1;
-cout<<E1.a<<endl;
+//cout<<E1.a<<endl;
+E1.display();
 	
 	
 
