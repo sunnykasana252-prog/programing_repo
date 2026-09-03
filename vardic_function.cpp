@@ -16,5 +16,5 @@ void display(int size,...){
 }
 int main(){
     
-   display(4,10,20,30,40);
+   display(6,10,20,30,40,50,60);
 }
