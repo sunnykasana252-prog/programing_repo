@@ -15,6 +15,10 @@ void display(int size,...){
     va_end(args);
 }
 int main(){
-    
+    int size;
+    cin>>size;
+    for(int i=0;i<size;i++){
+        display(size,i);
+    }
    display(6,10,20,30,40,50,60);
 }
